@@ -4,13 +4,12 @@ This repository contains data set which can be imported to Lumeer.
 
 ## Prerequisites
 
-You need to have **Python 3** installed on your machine.
+Install lumeer-utils from Lumeer/engine project into your local repository:
+```
+engine/ $ mvn install
+```
 
 ## Import
 
-In order to import the data to Lumeer, you need to follow these steps:
-1. Start Lumeer on your machine.
-2. Run import script:
-    ```
-    python3 import.py
-    ```
+In order to import the data to Lumeer, you can run `import.sh` or `import.bat`.
+If you need to change URL of a running engine, edit `pom.xml`.

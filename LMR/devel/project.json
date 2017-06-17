@@ -1,6 +1,10 @@
 {
-  "name": "Development",
-  "code": "devel",
-  "icon": "",
-  "color": ""
+   "path": "/LMR/projects",
+   "method": "POST",
+   "content": {
+      "name": "Development",
+      "code": "devel",
+      "icon": "",
+      "color": ""
+   }
 }
