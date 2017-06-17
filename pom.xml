@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>io.lumeer</groupId>
+   <artifactId>sample-data</artifactId>
+   <version>1.0-SNAPSHOT</version>
+   <packaging>jar</packaging>
+   <name>Lumeer Sample Data</name>
+   <organization>
+      <name>Lumeer Community</name>
+      <url>https://www.lumeer.io</url>
+   </organization>
+   <description>A Modern Data Management Platform</description>
+   <url>https://www.lumeer.io</url>
+   <inceptionYear>2016</inceptionYear>
+   <scm>
+      <url>https://github.com/Lumeer/engine</url>
+      <connection>scm:git:git://github.com/Lumeer/sample-data.git</connection>
+      <developerConnection>scm:git:git@github.com:Lumeer/sample-data.git</developerConnection>
+      <tag>v1.0</tag>
+   </scm>
+   <licenses>
+      <license>
+         <name>The Apache Software License, Version 2.0</name>
+         <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+         <distribution>repo</distribution>
+         <comments>A business-friendly OSS license</comments>
+      </license>
+   </licenses>
+   <distributionManagement>
+      <snapshotRepository>
+         <id>ossrh</id>
+         <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      </snapshotRepository>
+      <repository>
+         <id>ossrh</id>
+         <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      </repository>
+   </distributionManagement>
+   <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+      <version.maven.exec>1.6.0</version.maven.exec>
+   </properties>
+   <dependencyManagement>
+      <dependencies>
+         <dependency>
+            <groupId>io.lumeer</groupId>
+            <artifactId>engine-bom</artifactId>
+            <version>${project.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+         </dependency>
+      </dependencies>
+   </dependencyManagement>
+   <dependencies>
+      <dependency>
+         <groupId>io.lumeer</groupId>
+         <artifactId>engine-utils</artifactId>
+      </dependency>
+   </dependencies>
+   <build>
+      <plugins>
+         <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>${version.maven.exec}</version>
+            <configuration>
+               <mainClass>io.lumeer.utils.RestImport</mainClass>
+               <commandlineArgs>-u http://127.0.0.1:8080/lumeer-engine/rest ./LMR/</commandlineArgs>
+            </configuration>
+         </plugin>
+      </plugins>
+   </build>
+</project>
