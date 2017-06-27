@@ -1,5 +1,5 @@
 {
-   "path": "/LMR/collections/Orders",
+   "path": "/organizations/LMR/projects/devel/collections/Orders/documents",
    "method": "POST",
    "content": [
 		{"company":{"name":"Lazz","contact person":{"name":"Dione Tweedlie","phone":"374-(954)488-9771"}},"price":"€35260,85","date of order":"02/29/2016","date of finish":"05/18/2017"},

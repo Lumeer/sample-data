@@ -1,5 +1,5 @@
 {
-   "path": "/LMR/collections/Employees",
+   "path": "/organizations/LMR/projects/devel/collections/Employees/documents",
    "method": "POST",
    "content": [
 		{"title":"Honorable","first_name":"Hannis","last_name":"Josselson","email":"hjosselson0@twitpic.com","gender":"Female","address":{"street":"5481 Maple Wood Trail","city":"Arapiraca","zip":"57300-000"},"location":{"lat":"-9.7525","lon":"-36.66111"},"customers":["Yost-Bradtke","Wolf, D'Amore and Davis","Jacobs, Rowe and Rolfson"]},

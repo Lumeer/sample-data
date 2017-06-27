@@ -1,5 +1,5 @@
 {
-   "path": "/LMR/collections/Companies",
+   "path": "/organizations/LMR/projects/devel/collections/Companies/documents",
    "method": "POST",
    "content": [
 		{"company":"Parisian, VonRueden and McLaughlin","departments":["Human Resources","Accounting"],"time zone":"Europe/Lisbon","state":"Leiria","CEO":"Monah Dankersley"},

@@ -1,5 +1,5 @@
 {
-   "path": "/LMR/projects",
+   "path": "/organizations/LMR/projects",
    "method": "POST",
    "content": {
       "name": "Development",
