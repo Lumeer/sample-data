@@ -1,0 +1,9 @@
+{
+  "path": "/organizations/LMR/projects/devel/collections/",
+  "method": "POST",
+  "content": [
+    {"code":"cmp","name":"Companies","icon":"fa-wifi","color":"#596b6f","documentCount":0},
+    {"code":"ord","name":"Orders","icon":"fa-bell","color":"#63a0ff","documentCount":0},
+    {"code":"emp","name":"Employees","icon":"fa-music","color":"#2ef1a9","documentCount":0}
+  ]
+}

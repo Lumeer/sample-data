@@ -1,0 +1,5 @@
+{
+  "path": "/organizations/LMR/projects",
+  "method": "POST",
+  "content": {"name":"Development","code":"devel","icon":"fa-comment","color":"#ff7a39"}
+}

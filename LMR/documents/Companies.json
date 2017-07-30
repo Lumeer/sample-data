@@ -1,0 +1,16 @@
+{
+  "path": "/organizations/LMR/projects/devel/collections/cmp/documents/",
+  "method": "POST",
+  "content": [
+    {"company":"Parisian,VonRuedenandMcLaughlin","departments":["HumanResources","Accounting"],"timezone":"Europe/Lisbon","state":"Leiria","CEO":"MonahDankersley"},
+    {"company":"Crooks-Hilll","departments":["Services","Accounting","Marketing"],"timezone":"America/Guayaquil","state":null,"CEO":"AmabelleAndrieu"},
+    {"company":"HintzGroup","departments":["ResearchandDevelopment","ResearchandDevelopment","Services","HumanResources","Marketing","ProductManagement","Marketing"],"timezone":"Europe/Warsaw","state":null,"CEO":"HusainHearmon"},
+    {"company":"JastLLC","departments":["Services","Accounting","Engineering","Sales"],"timezone":"Asia/Makassar","state":null,"CEO":"AllxLamburn"},
+    {"company":"Schuster-Kuvalis","departments":["ProductManagement","Sales","Legal"],"timezone":"Asia/Tokyo","state":null,"CEO":"KaileyGreir"},
+    {"company":"O'Conner,RutherfordandAbernathy","departments":["HumanResources","Legal","BusinessDevelopment","Services","Accounting","BusinessDevelopment"],"timezone":"America/Monterrey","state":"NuevoLeon","CEO":"AbagaelBlencowe"},
+    {"company":"MoenInc","departments":["ProductManagement","ProductManagement","Marketing","Accounting"],"timezone":"Europe/Athens","state":null,"CEO":"SaundraKenward"},
+    {"company":"Hermiston,AdamsandLueilwitz","departments":["ProductManagement","Services","ProductManagement","HumanResources","Training"],"timezone":"Asia/Makassar","state":null,"CEO":"GiuliettaBoteman"},
+    {"company":"BinsInc","departments":["Marketing","Support"],"timezone":"America/Detroit","state":"Ontario","CEO":"RodericNowak"},
+    {"company":"Kuhic-Gislason","departments":["ProductManagement","Training","BusinessDevelopment","ProductManagement"],"timezone":"Asia/Manila","state":null,"CEO":"CorbyEhlerding"}
+  ]
+}
