@@ -2,8 +2,8 @@
   "path": "/organizations/LMR/projects/devel/collections/",
   "method": "POST",
   "content": [
-    {"code":"cmp","name":"Companies","icon":"fa-wifi","color":"#596b6f"},
-    {"code":"ord","name":"Orders","icon":"fa-bell","color":"#63a0ff"},
-    {"code":"emp","name":"Employees","icon":"fa-music","color":"#2ef1a9"}
+    {"code":"cmp","name":"Companies","icon":"fa fa-wifi","color":"#596b6f"},
+    {"code":"ord","name":"Orders","icon":"fa fa-bell","color":"#63a0ff"},
+    {"code":"emp","name":"Employees","icon":"fa fa-music","color":"#2ef1a9"}
   ]
 }
